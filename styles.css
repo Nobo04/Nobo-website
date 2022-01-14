@@ -9,15 +9,16 @@
 }
 body {
     font-family: "torusregular", sans-serif;
+    font-size: 18pt;
     margin: 0px;
     padding: 0px;
     background-color: black;
 }
 
-.container {
-   
-
-}
+a:link, a:visited {
+    text-decoration: none;
+    color:white;
+  }
 
 /* Nav styles */
 .top-bar {
@@ -51,6 +52,7 @@ body {
     width: auto;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 

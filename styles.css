@@ -1,0 +1,49 @@
+/* Master styles */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container {
+   
+
+}
+
+/* Nav styles */
+.top-bar {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background: none;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.logo img{
+    order: 0;
+    margin-left: 10px;
+    height: 63px;
+    width: auto;
+}
+.nav-bar {
+    display: flex;
+    background: url(nav-bar.png);
+    height: 60px;
+    width: 1144px;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    margin-inline: 10px;
+}
+.nav-button {
+    order: 1;
+    position: relative;
+    display: block; 
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Home styles */

@@ -1,6 +1,14 @@
 /* Master styles */
+@font-face {
+    font-family: 'torusregular';
+    src: url('https://raw.githubusercontent.com/Nobo04/Nobo-website/main/torus_regular-webfont.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/Nobo04/Nobo-website/main/torus_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "torusregular", sans-serif;
     margin: 0px;
     padding: 0px;
     background-color: black;

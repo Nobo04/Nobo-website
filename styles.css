@@ -23,7 +23,6 @@ a:link, a:visited {
 /* Nav styles */
 .top-bar {
     display: flex;
-    align-items: flex-start;
     flex-wrap: nowrap;
     background: none;
     flex-direction: row;
@@ -53,6 +52,10 @@ a:link, a:visited {
     margin-right: auto;
     margin-left: auto;
     
+}
+
+.warning {
+    margin-left: auto;
 }
 
 

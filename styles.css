@@ -28,7 +28,7 @@ a:link, a:visited {
     flex-direction: row;
     margin-top: 10px;
 }
-.logo img{
+.logo img {
     order: 0;
     margin-left: 10px;
     height: 63px;
@@ -60,3 +60,25 @@ a:link, a:visited {
 
 
 /* Home styles */
+.info-sections {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-inline: 10px;
+}
+.main-section {
+    border-radius: 25px;
+    height: 1100px;
+    width: 100%;
+    
+    background-color: #373737;
+
+}
+.socials-section {
+    border-radius: 25px;
+    height: 1100px;
+    width: 400px;
+    margin-inline: 10px;
+    background-color: #373737;
+
+}

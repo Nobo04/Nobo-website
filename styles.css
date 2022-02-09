@@ -20,15 +20,28 @@ a:link, a:visited {
     color:white;
 }
 
+
+
 .wrapper {
     display: flex;
     flex-direction: row;
+    gap: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .container  {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+.box-wrapper {
+    display: flex;
+    gap: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 /* Nav styles */
@@ -39,6 +52,7 @@ a:link, a:visited {
 
 .nav-bar {
     display: flex;
+    margin-left: 12px;
     border-radius: 50px; /* rounded sides */
     background: #cf26cf;
     padding: 20px; 
@@ -49,11 +63,30 @@ a:link, a:visited {
 }
 
 /* Main Content Styles */
-.top-of-content-box {
+
+.content-box-top {
     border-radius: 50px 50px 0px 0px; /* rounded sides */
     background: #cf26cf;
     padding: 20px; 
     width: auto;
     height: 100%;
     flex-grow: 1;
+}
+
+.content-box-bottom {
+    border-radius: 0px 0px 50px 50px; /* rounded sides */
+    background: #cf26cf;
+    padding: 20px; 
+    width: auto;
+    height: 1000px; /* temp */
+    flex-grow: 1;
+}
+
+.sidebar-box {
+    border-radius: 50px; /* rounded sides */
+    background: #cf26cf;
+    padding: 20px; 
+    width: 447px;
+    height: 988px; /* temp */
+    margin-top: 12px;
 }

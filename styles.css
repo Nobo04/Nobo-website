@@ -9,7 +9,7 @@
 }
 body {
     font-family: "torusregular", sans-serif;
-    font-size: 18pt;
+    font-size: 29pt;
     margin: 0px;
     padding: 0px;
     background-color: black;
@@ -18,67 +18,42 @@ body {
 a:link, a:visited {
     text-decoration: none;
     color:white;
-  }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 /* Nav styles */
 .top-bar {
     display: flex;
-    flex-wrap: nowrap;
-    background: none;
-    flex-direction: row;
-    margin-top: 10px;
+    flex-grow: 1; /* makes left side stuff grow to fill in horizontal screen space */
 }
-.logo img {
-    order: 0;
-    margin-left: 10px;
-    height: 63px;
-    width: auto;
-}
+
 .nav-bar {
     display: flex;
-    background: url(nav-bar.png);
-    height: 60px;
-    width: 1144px;
-    align-items: center;
-    justify-content: center;
-    background-size: 100% 100%;
-    margin-inline: 10px;
+    border-radius: 50px; /* rounded sides */
+    background: #cf26cf;
+    padding: 20px; 
+    width: max-content;
+    height: fit-content;
+    justify-content: space-evenly; /* spaces buttons evenly */
+    flex-grow: 1; /* makes navbar grow to fill in horizontal screen space */
 }
-.nav-button {
-    order: 1;
-    position: relative;
-    display: block; 
+
+/* Main Content Styles */
+.top-of-content-box {
+    border-radius: 50px 50px 0px 0px; /* rounded sides */
+    background: #cf26cf;
+    padding: 20px; 
     width: auto;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-
-.warning {
-    margin-left: auto;
-}
-
-
-/* Home styles */
-.info-sections {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin-inline: 10px;
-}
-.main-section {
-    border-radius: 25px;
-    height: 1100px;
-    width: 100%;
-    
-    background-color: #373737;
-
-}
-.socials-section {
-    border-radius: 25px;
-    height: 1100px;
-    width: 400px;
-    margin-inline: 10px;
-    background-color: #373737;
-
+    height: 100%;
+    flex-grow: 1;
 }

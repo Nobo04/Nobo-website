@@ -14,7 +14,9 @@ body {
     padding: 0px;
     background-color: rgb(7, 7, 7);
     color: white; /* text color */
-
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a:link, a:visited {
@@ -28,9 +30,7 @@ a:link, a:visited {
     display: flex;
     flex-direction: row;
     gap: 12px;
-    margin-top: 12px;
-    margin-left: 12px;
-    margin-right: 12px;
+
 }
 
 .container  {
@@ -42,8 +42,6 @@ a:link, a:visited {
 .box-wrapper {
     display: flex;
     gap: 12px;
-    margin-left: 12px;
-    margin-right: 12px;
 }
 
 /* Nav styles */

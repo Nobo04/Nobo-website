@@ -13,6 +13,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(7, 7, 7);
+    color: white; /* text color */
 
 }
 
@@ -82,6 +83,9 @@ a:link, a:visited {
     width: auto;
     height: 1000px; /* temp */
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    font-size: 2.8vw;
 }
 
 .sidebar-box {
@@ -91,4 +95,12 @@ a:link, a:visited {
     width: 447px;
     height: 988px; /* temp */
     margin-top: 12px;
+}
+
+.inside-content-box {
+    margin-left: 250px;
+    margin-right: 60%;
+    margin-bottom: 270px;
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -53,8 +53,8 @@ a:link, a:visited {
 .nav-bar {
     display: flex;
     margin-left: 12px;
-    border-radius: 50px; /* rounded sides */
-    background: #373737;
+    border-radius: 25px; /* rounded sides */
+    background-image: linear-gradient(to top right, #FF35A1, #38DBFF);
     padding: 20px; 
     width: max-content;
     height: 42px;
@@ -66,7 +66,7 @@ a:link, a:visited {
 /* Main Content Styles */
 
 .content-box-top {
-    border-radius: 50px 50px 0px 0px; /* rounded sides */
+    border-radius: 25px 25px 0px 0px; /* rounded sides */
     background: #373737;
     padding: 20px; 
     width: auto;
@@ -75,7 +75,7 @@ a:link, a:visited {
 }
 
 .content-box-bottom {
-    border-radius: 0px 0px 50px 50px; /* rounded sides */
+    border-radius: 0px 0px 25px 25px; /* rounded sides */
     background: #373737;
     padding: 20px; 
     width: auto;
@@ -84,7 +84,7 @@ a:link, a:visited {
 }
 
 .sidebar-box {
-    border-radius: 50px; /* rounded sides */
+    border-radius: 25px; /* rounded sides */
     background: #373737;
     padding: 20px; 
     width: 447px;

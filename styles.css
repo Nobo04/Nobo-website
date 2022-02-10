@@ -9,7 +9,7 @@
 }
 body {
     font-family: "torusregular", sans-serif;
-    font-size: 29pt;
+    font-size: 1.5vw;
     margin: 0px;
     padding: 0px;
     background-color: black;
@@ -54,10 +54,11 @@ a:link, a:visited {
     display: flex;
     margin-left: 12px;
     border-radius: 50px; /* rounded sides */
-    background: #cf26cf;
+    background: #373737;
     padding: 20px; 
     width: max-content;
-    height: fit-content;
+    height: 42px;
+    align-items: center;
     justify-content: space-evenly; /* spaces buttons evenly */
     flex-grow: 1; /* makes navbar grow to fill in horizontal screen space */
 }
@@ -66,7 +67,7 @@ a:link, a:visited {
 
 .content-box-top {
     border-radius: 50px 50px 0px 0px; /* rounded sides */
-    background: #cf26cf;
+    background: #373737;
     padding: 20px; 
     width: auto;
     height: 100%;
@@ -75,7 +76,7 @@ a:link, a:visited {
 
 .content-box-bottom {
     border-radius: 0px 0px 50px 50px; /* rounded sides */
-    background: #cf26cf;
+    background: #373737;
     padding: 20px; 
     width: auto;
     height: 1000px; /* temp */
@@ -84,7 +85,7 @@ a:link, a:visited {
 
 .sidebar-box {
     border-radius: 50px; /* rounded sides */
-    background: #cf26cf;
+    background: #373737;
     padding: 20px; 
     width: 447px;
     height: 988px; /* temp */

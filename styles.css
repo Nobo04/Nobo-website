@@ -98,9 +98,13 @@ a:link, a:visited {
 }
 
 .inside-content-box {
-    margin-left: 250px;
-    margin-right: 60%;
+    margin-left: 10%;
     margin-bottom: 270px;
     display: flex;
     flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.linebreak {
+    margin-right: 100%;
 }
